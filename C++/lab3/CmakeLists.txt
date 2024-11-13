@@ -1,0 +1,14 @@
+cmake_minimum_required(VERSION 3.0.0)
+project(labwork3)
+
+set(CMAKE_CXX_STANDARD 17)
+
+set(SOURCES
+    lib/Parser.cpp
+    lib/Desk.cpp
+    lib/SaveImage.cpp
+    lib/SandModel.cpp
+    main.cpp
+)
+
+add_executable(${PROJECT_NAME} ${SOURCES})

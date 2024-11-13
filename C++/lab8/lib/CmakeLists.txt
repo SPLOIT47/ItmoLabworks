@@ -1,0 +1,2 @@
+add_library(BinarySearchTree INTERFACE)
+target_include_directories(BinarySearchTree INTERFACE ${CMAKE_CURRENT_SOURCE_DIR})

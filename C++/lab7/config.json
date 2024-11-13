@@ -1,0 +1,7 @@
+{
+  "api_key" : "",
+  "cities" : ["Moscow"],
+  "days" : 16,
+  "_comment" : "frequency is measured in seconds", 
+  "frequency" : 86400  
+}

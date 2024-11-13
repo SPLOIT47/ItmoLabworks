@@ -1,0 +1,2 @@
+add_library(MyAdapters INTERFACE)
+target_include_directories(MyAdapters INTERFACE ${CMAKE_CURRENT_SOURCE_DIR})
